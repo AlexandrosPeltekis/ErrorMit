@@ -4,18 +4,24 @@
 
 ## Overview
 
-The GUI Application is a Python script that provides a graphical user interface (GUI) for interacting with the underlying functionality provided by the appBackend module. It allows users to perform various tasks through a user-friendly interface.
+### Mitiq Error Mitigation Tool
+
+Compare and assess quantum error mitigation (QEM) techniques using Mitiq's Python package. This project introduces a pipeline, tests, and GUI to evaluate QEM methods' performance and computational overhead across different algorithms and noise models.
+
+### Background
+
+NISQ devices suffer from noise, making computation unreliable. Mitiq, developed by the Unitary Fund, offers QEM implementations. This project creates a pipeline and GUI to compare QEM techniques' performance and computational overhead, aiding users in selecting the most suitable method.
 
 ## Features
 
-- Describe key features and functionalities of the GUI application.
+- Describe key features and functionalities of the GUI application and backend.
 
 ## Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/GUI-Application.git
+   git clone https://github.com/your-username/ErrorMit.git
 2. Install dependencies:
 
     ```bash
