@@ -41,5 +41,7 @@ Toml
 Tomlkit
 
 Acknowledgements
-Unitary Fund
-University of Washington
+
+- Unitary Fund
+
+- University of Washington
