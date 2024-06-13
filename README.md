@@ -32,14 +32,6 @@ NISQ devices suffer from noise, making computation unreliable. Mitiq, developed 
    python main.py
    ```
 
-
-Dependencies
-Python 3.x
-CustomTkinter
-Matplotlib
-Toml
-Tomlkit
-
 Acknowledgements
 
 - Unitary Fund
