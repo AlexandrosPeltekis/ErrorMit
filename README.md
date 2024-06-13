@@ -12,20 +12,25 @@ Compare and assess quantum error mitigation (QEM) techniques using Mitiq's Pytho
 
 NISQ devices suffer from noise, making computation unreliable. Mitiq, developed by the Unitary Fund, offers QEM implementations. This project creates a pipeline and GUI to compare QEM techniques' performance and computational overhead, aiding users in selecting the most suitable method.
 
-## Features
-
-- Describe key features and functionalities of the GUI application and backend.
-
 ## Usage
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/ErrorMit.git
+   ```
+
 2. Install dependencies:
 
-    ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   python main.py
+   ```
 
 
 Dependencies
