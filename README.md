@@ -40,8 +40,6 @@ Matplotlib
 Toml
 Tomlkit
 
-Contributing
-FILL
-
 Acknowledgements
-FILL
+Unitary Fund
+University of Washington
