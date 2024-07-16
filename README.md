@@ -1,10 +1,39 @@
-This repository contains work establishing a benchmarking pipeline for various error mitigation techniques implemented by Mitiq. 
+### ErrorMit README.txt
 
-Idea for getting going: start by benchmarking zero-noise extrapolation (ZNE), comparing different extrapolation techniques, as well as  probabilistic error cancellation (PEC) 
-    - these are the two that seem to be easily implemented in Mitiq already
-    - Mitiq can already run many experiments for comparing different “zne” strategies, “scale_noise” methods ,and ZNE factories for extrapolation, for which it computes an 'improvement factor'
-    - we may want to try running these types of experiements for increasing number of qubits and increasing circuit depth
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## Overview
 
-Other methods we can think about implementing once we have the infrastructure established from the first two:
-     randomization methods, subspace expansion
+### Mitiq Error Mitigation Tool
+
+Compare and assess quantum error mitigation (QEM) techniques using Mitiq's Python package. This project introduces a pipeline, tests, and GUI to evaluate QEM methods' performance and computational overhead across different algorithms and noise models.
+
+### Background
+
+NISQ devices suffer from noise, making computation unreliable. Mitiq, developed by the Unitary Fund, offers QEM implementations. This project creates a pipeline and GUI to compare QEM techniques' performance and computational overhead, aiding users in selecting the most suitable method.
+
+## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/ErrorMit.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   python main.py
+   ```
+
+Acknowledgements
+
+- Unitary Fund
+
+- University of Washington
