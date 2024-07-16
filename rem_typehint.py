@@ -11,7 +11,7 @@ from mitiq.observable.observable import Observable
 from mitiq.observable.pauli import PauliString
 
 
-def execute_rem(circuit, backend=AerSimulator(), shots=100): #-> MeasurementResult
+def execute_rem(circuit, backend=AerSimulator(), shots=100)-> MeasurementResult: 
     result = backend.run(circuit, shots=shots, optimization_level=0, memory=True).result()
     bitstrings = result.get_memory()
     rev_bitstrings = [bitstring[::-1] for bitstring in bitstrings]
